@@ -28,10 +28,11 @@ main {
 
 .card_info {
     text-align: center;
-    padding: 2.5rem 1rem;
+    padding: 2rem 1rem;
 }
 
 h1 {
+    font-size: 2rem;
     color: white;
 }
 
@@ -40,22 +41,19 @@ h1 span {
 }
 
 .hero-cta {
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     margin-bottom: 1rem;
-}
-
-.hero-cta {
     font-size: 17px;
     line-height: 1.8rem;
+    color: hsla(0, 0%, 100%, 0.6);
+
 }
 
-
 .card-stats {
-    height: 10rem;
+    height: 13rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: rgba(0, 255, 255, 0.232);
 }
 
 .card-stats p{
