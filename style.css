@@ -69,3 +69,9 @@ h1 span {
     font-weight: 400;
     margin-top: 5px;
 }
+
+@media(max-width: 50rem) {
+    body{
+        background-color: aqua;
+    }
+}
