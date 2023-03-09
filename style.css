@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+img{
+    width: 100%;
 }
 
 body {
@@ -10,8 +16,58 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    font-family: 'Inter', 'Lexend Deca', sans-serif;
 }
 
 main {
     background-color: hsl(244, 38%, 16%);
+    width: 90%;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.card_info {
+    text-align: center;
+    padding: 2.5rem 1rem;
+}
+
+h1 {
+    color: white;
+}
+
+h1 span {
+    color: hsl(277, 64%, 61%);
+}
+
+.hero-cta {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero-cta {
+    font-size: 17px;
+    line-height: 1.8rem;
+}
+
+
+.card-stats {
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(0, 255, 255, 0.232);
+}
+
+.card-stats p{
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.card-stats p span {
+    display: block;
+    color: hsla(0, 0%, 100%, 0.6);
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 5px;
 }
