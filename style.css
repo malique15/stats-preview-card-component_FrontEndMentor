@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-img {
+img{
     width: 100%;
 }
 
@@ -28,6 +28,7 @@ main {
 
 .card_info {
     text-align: center;
+    padding: 2rem 1rem;
 }
 
 
@@ -56,7 +57,7 @@ h1 span {
     justify-content: space-between;
 }
 
-.card-stats p {
+.card-stats p{
     color: white;
     font-weight: 700;
     font-size: 1.5rem;
@@ -71,16 +72,17 @@ h1 span {
 }
 
 @media(min-width: 35rem) {
-    body {
-        background-color: aqua;
-        width: 100vw;
-        height: 100vh;
-        padding: 0%;
-        margin: 0%;
-    }
 
     img {
+        width: 100%;
+        height: 100%;
         object-fit: cover;
+    }
+
+    body {
+        background-color: rgba(11, 74, 74, 0.24);
+        width: 100vw;
+        height: 100vh;
     }
 
     main {
@@ -91,16 +93,64 @@ h1 span {
 
     .card_info {
         text-align: left;
-        padding: 1.5rem;
     }
 
-    .card_info h1 {
+    .card-info h1 {
+        font-size: 2rem;
+    }
+
+    .card_info p{
+        font-size: .9rem;
+    }
+
+    .card-stats {
+        display: flex;
+        flex-direction: row;
+        height: 0;
+        margin-top: 2rem;
+        text-align: center;
+    }
+
+    .card-stats p {
+        font-size: 1.5rem;
+    }
+
+}
+
+
+
+/*     
+    body{
+        background-color: aqua;
+        width: 100vw;
+        height: 100vh;
+        padding: 0%;
+        margin: 0%;
+    }
+
+    
+
+    img{
+        width: 100%;
+        height: 100%;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 70%;
+    }
+
+    .card_info {
+        text-align: left;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .card_info h1{
         margin-bottom: 1.8rem;
     }
 
     .card-stats {
-        margin-top: 2rem;
-        display: block;
-    }
-
-}
+        display: flex;
+    } */
