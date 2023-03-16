@@ -80,7 +80,6 @@ h1 span {
     }
 
     body {
-        background-color: rgba(11, 74, 74, 0.24);
         width: 100vw;
         height: 100vh;
     }
@@ -88,11 +87,13 @@ h1 span {
     main {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        width: 70%;
+        width: 80%;
     }
 
     .card_info {
         text-align: left;
+        padding: 3rem;
+        float: left;
     }
 
     .card-info h1 {
@@ -107,7 +108,7 @@ h1 span {
         display: flex;
         flex-direction: row;
         height: 0;
-        margin-top: 2rem;
+        margin-top: 5rem;
         text-align: center;
     }
 
